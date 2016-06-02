@@ -42,7 +42,7 @@
         <dependency>
             <groupId>com.auth0</groupId>
             <artifactId>auth0-spring-security</artifactId>
-            <version>1.0</version>
+            <version>1.0.0</version>
         </dependency>
 
 		<dependency>
