@@ -1,7 +1,29 @@
 # Auth0 Spring Security
 
+[![Build][travis-ci-badge]][travis-ci-url]
+[![MIT][mit-badge]][mit-url]
+[![Maven][maven-badge]][maven-url]
+
 A modern Java Spring library that allows you to use Auth0 with Spring Security. Leverages Spring Boot dependencies.
 Validates the JWT from Auth0 in every API call to assert authentication according to configuration.
+
+## Download
+
+Get Auth0 Spring Security via Maven:
+
+```xml
+<dependency>
+  <groupId>com.auth0</groupId>
+  <artifactId>spring-security-auth0</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+or Gradle:
+
+```gradle
+compile 'com.auth0:spring-security-auth0:1.0.0'
+```
 
 ## Learn how to use it
 
@@ -36,3 +58,12 @@ If you have found a bug or if you have a feature request, please report them at 
 ## License
 
 This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
+
+<!-- Vars -->
+
+[travis-ci-badge]: https://travis-ci.org/auth0/auth0-spring-security.svg?branch=master
+[travis-ci-url]: https://travis-ci.org/auth0/auth0-spring-security
+[mit-badge]: http://img.shields.io/:license-mit-blue.svg?style=flat
+[mit-url]: https://raw.githubusercontent.com/auth0/auth0-java/master/LICENSE
+[maven-badge]: https://img.shields.io/maven-central/v/com.auth0/auth0-spring-security.svg
+[maven-url]: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.auth0%22%20AND%20a%3A%22spring-security-auth0%22
